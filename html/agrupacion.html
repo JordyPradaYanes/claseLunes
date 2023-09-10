@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <style>
+        nav{
+            display: flex;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: rgb(255, 255, 145);
+            justify-content: space-evenly;
+        }
+        h1{
+            border-bottom: 1px solid black;
+        }
+        main .cont div,.cont h2,h3{
+            display: grid;
+            place-content: center;
+            background-color: rgb(133, 239, 214);
+            margin: 10px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        main .h2{
+            display: grid;
+            place-content: center;
+            background-color: rgb(255, 255, 145);
+            margin: 10px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .figure{
+            display: grid;
+            place-content: center;
+            background-color: rgb(188, 133, 239);
+            margin: 10px;
+            
+            border-radius: 5px;
+        }
+        figure{
+            display: grid;
+            place-content: center;
+            background-color: rgb(188, 133, 239);
+            margin: 10px;
+            
+            border-radius: 5px;
+        }
+    </style>
+    <title>Agrupacion</title>
+</head>
+<body>
+    <li style="list-style: none;color: black;"><a style="width: 20vh;
+        text-decoration: none;
+        border: 2px solid blue;
+        background-color: gold;
+        padding: 5px;
+        margin-left: 10px;
+        border-radius: 5px;
+        display: grid;
+        place-content: left;
+        cursor: grab;
+        list-style: none;" href="../index.html">Regresar</a></li>
+    <h1>Etiquetas de Agrupacion en HTML5</h1>
+    <br>
+    <main>
+        <div class="cont">
+            <h2>Etiqueta Div</h2>
+        <div>
+            <Finalidad>Etiqueta Div: finalidad de agrupación y división de elementos</p>
+        </div>
+        </div>
+        <br>
+        <h2 class="h2">Etiquetas < ol > y  < ul ></ul></h2>
+        <nav>
+            <div class="orden">
+                <div>Listas ordenadas</div>
+            <ol>
+                <li>Inicio</li>
+                <li>Sobre Nosotros</li>
+                <li>Contacto</li>
+            </ol>
+            </div>
+            <div class="desorden">
+                <div>Listas Desordenadas</div>
+            <ul>
+                <li>Inicio</li>
+                <li>Sobre Nosotros</li>
+                <li>Contacto</li>
+            </ul>
+            </div>
+        </nav>
+        <div class="figure">
+            <h2>Etiqueta figure</h2>
+            
+        </div>
+        <figure>
+            <h3>Contenedor de ilustraciones o figuras</h3>
+            <img src="https://images.vexels.com/media/users/3/166383/isolated/preview/6024bc5746d7436c727825dc4fc23c22-html-programming-language-icon-by-vexels.png" width="300px" height="200px" alt="Logotipo de HTML5">
+            <figcaption>Logotipo oficial del lenguaje de marcas HTML5.</figcaption>
+          </figure>
+    </main>
+</body>
+</html>
