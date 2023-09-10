@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css" />
+    <style>
+      address,
+      footer {
+        background-color: aqua;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 5px;
+      }
+      header,nav,section,aside,address,footer{
+        margin: 10px;
+        padding: 10px;
+        border: 1px solid white;
+        border-radius: 5px;
+        justify-content: center;
+        display: grid;
+        place-content: center;
+        text-align: center;
+      }
+      nav{
+        background-color: rgb(255, 255, 60);
+      }
+      header{
+        background-color: rgb(255, 255, 123);
+      }
+      .bodi{
+        display: flex;
+        height: 300px;
+      }
+      section{
+        background-color: blueviolet;
+      }
+      p{
+        color: white;
+      }
+      main{
+        width: 60%;
+      }
+      section article{
+        margin: 10px;
+        padding: 10px;
+        border: 1px solid white;
+        border-radius: 5px;
+        background-color: aqua;
+      }
+      aside{
+        margin-top: -2px;
+        height: 100%;
+        width: 40%;
+        background-color: aqua;
+      }
+    </style>
+    <title>Semanticas</title>
+  </head>
+  <body>
+    <li><a href="../index.html">Regresar</a></li>
+    <div style="margin: 10px; padding: 10px">
+      <h1>Etiquetas de HTML5 Semanticas</h1>
+        <header id="header">
+          Etiqueta Header: para cabecera de la pagína o de seccion
+        </header>
+        <nav>Etiqueta Nav: para secciones de navegación</nav>
+        <div class="bodi">
+            <main>
+                <section>
+                  <p>Etiqueta Section: para secciones</p>
+                  <article id="num1">
+                    Etiqueta Article: para definir entidades importantes
+                  </article>
+                  <article id="num2">
+                      <h1>Titulo Principal</h1>
+                      <h2>Subtitulo 1</h2>
+                      <h3>Subtitulo 2</h3>
+                      <h4>Subtitulo 3</h4>
+                      <h5>Subtitulo 4</h5>
+                      <h6>Subtitulo 5</h6>
+                  </article>
+                </section>
+              </main>
+              <aside>
+                Etiqueta Aside: elementos indirectamente relacionado con el contenido
+                Principal de la pagína
+              </aside>
+        </div>
+        <address>Etiqueta Address: para informacion de contacto</address>
+        <footer>Etiqueta Footer: para pie de pagina o de seccion</footer>
+    </div>
+  </body>
+</html>
