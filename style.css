@@ -1,3 +1,29 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: grabbing;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+    color: black;
+    text-decoration: none;
+    margin: 20px;    
+}
+li a{
+    width: 20vh;
+    text-decoration: none;
+    color: black;
+    border: 2px solid blue;
+    background-color: gold;
+    padding: 5px;
+    margin-left: -18px;
+    border-radius: 5px;
+    display: grid;
+    place-content: left;
+    cursor: grab;
+}
 img{
     width: 150px;
     height: 150px;
@@ -8,6 +34,7 @@ td{
     text-align: center;
 }
 caption{
+    margin-top: 30px;
     margin-bottom: 10px;
 }
 #brasil{
@@ -26,3 +53,30 @@ caption{
     color: yellow;
     background-color: rgb(142,31,76);
 }
+.content{
+    gap: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.content .box{
+    background-color: goldenrod;
+    width: 20rem;
+    height: 100px;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    
+}
+.i{
+    width: 15rem;
+    margin: 20px;
+    padding: 5px;
+    background-color: rgb(2, 216, 2);
+    border-radius: 5px;
+    height: 30px;
+    border: none;
+}   
