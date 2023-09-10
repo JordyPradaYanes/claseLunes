@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css"> 
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        div.contain{
+            background-color: white;
+            margin: 20px;
+            border-radius: 10px;
+            height: 200px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        .contain p{
+            display: block;
+            padding: 10px;
+            margin: 20px;
+        }
+        .contain .mul{
+            border-radius: 25px;
+            margin: 20px;
+        }
+        picture{
+            display: flex;
+            margin: 20px;
+        }
+        picture div.contain{
+            width: 100%;
+        }
+        img{
+            border-radius: 25px ;
+        }
+    </style>
+    <title>Multimedia</title>
+</head>
+<body style="background-color: rgb(224, 224, 224);">
+    <li><a href="../index.html">Regresar</a></li>
+    <picture>
+        <div class="contain">
+            <p>Imagenes ejemplo</p>
+            <img class="mul" src="../Multimedia/imagen.jpeg" alt="Imagen del puebito1" width="400px" height="200px">
+            <img class="mul" src="../Multimedia/imagen2.jpeg" alt="Imagen del puebito2" width="400px" height="200px">
+            <img class="mul" src="../Multimedia/imagen3.jpeg" alt="Imagen del puebito3" width="400px" height="200px">
+            <img class="mul" src="../Multimedia/imagen4.jpeg" alt="Imagen del puebito4" width="400px" height="200px">
+        </div>
+    </picture>
+    <div class="contain">
+        <p>Video ejemplo</p>
+            <video class="mul" style="border-radius: 25px; margin-top: 10px;" src="../Multimedia/video.mp4" loop controls alt="Video del puebito" width="200px" height="150px">
+    </div>
+    <div class="contain">
+        <p>Audio ejemplo</p>
+        <video class="mul" style="background-color: brown;height: 60px; padding: 5px; width: 400px;" src="../Multimedia/Clair de Lune - Caude Debussy.mpeg" loop controls alt="Audio Piano" width="200px" height="150px">
+    </div>
+</body>
+</html>
