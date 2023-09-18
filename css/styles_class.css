@@ -94,7 +94,7 @@ h2{
 
 /* media query de 799 para abajo */
 
-@media (min-width:800px) and (max-width:1280px){
+@media (max-width:799px){
     body{
         background-image: url(https://imgmedia.larepublica.pe/640x371/larepublica/original/2023/03/23/641c54e828135879ef331f1b.webp);
         background-size: cover;
