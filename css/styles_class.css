@@ -57,3 +57,26 @@ h2{
 #papa .nieto{
     color: blue;
 }
+
+#title_box{
+    color: #000;
+    font-family: ´popins´,sans-serif;
+    background-color: aqua;
+    text-align: center;
+    padding-left: 20px;
+    margin: 50px;
+    border: 1px dotted black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 10px red;
+}
+
+#box_father{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 400px;
+    height: 200px;
+    margin-left: 20px;
+    background-image: url(https://imgmedia.larepublica.pe/640x371/larepublica/original/2023/03/23/641c54e828135879ef331f1b.webp);
+    background-size: cover;
+    background-position: center;
+}
